@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #fff9e6;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #e6d188;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  padding: 5px;
+  border: 1px solid #bfae69;
+  border-radius: 4px;
+  outline: none;
+}
+
+.search-container button {
+  background: #d1bc74;
+  border: none;
+  padding: 6px 8px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Header */
+.header {
+  margin-top: 100px;
+  background-color: #e6d188;
+  padding: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.header-left h1 {
+  font-size: 36px;
+}
+
+.header-left p {
+  font-size: 18px;
+}
+
+.header-right .logo {
+  width: 120px;
+  height: 120px;
+}
+
+/* Sections */
+.section {
+  margin: 140px 0;
+}
+
+/* Vice Mayor */
+.vice-mayor-photo {
+  width: 220px;
+  height: 220px;
+  margin: 50px auto 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vice-mayor-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* optional slight rounding */
+}
+
+/* Vice Mayor text box */
+.long-box {
+  background-color: #e6d188;
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Mayor Section */
+.mayor-section {
+  text-align: center;
+}
+
+.mayor-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.mayor-container img {
+  width: 320px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px; /* slightly rounded rectangle */
+}
+
+/* Sangguniang Bayan Members (10 members) */
+.sangguniang-bayan {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.sangguniang-bayan .card {
+  width: 220px;
+  height: 260px;
+  border-radius: 12px;
+  background-color: #f0de9e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.member-photo {
+  width: 120px;
+  height: 150px;   /* rectangular instead of circle */
+  border-radius: 8px; /* optional slight rounding */
+  object-fit: cover;
+}
+
+/* Footer */
+.footer {
+  background-color: #d8c372;
+  color: black;
+  padding: 25px 0;
+  font-size: 14px;
+  margin-top: 120px;
+}
